@@ -4,7 +4,7 @@ mod todo;
 
 use processes::process_input;
 use serde_json::value::Value;
-use serde_json::{json, Map};
+use serde_json::Map;
 use state::read_file;
 use std::env;
 use todo::todo_factory;
