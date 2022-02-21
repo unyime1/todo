@@ -1,5 +1,4 @@
-use std::fs::{read_to_string, write, File};
-use std::io::Read;
+use std::fs::{read_to_string, write};
 
 use serde_json::json;
 use serde_json::value::Value;
